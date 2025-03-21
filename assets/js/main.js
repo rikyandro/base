@@ -43,4 +43,4 @@
         </footer>`}const va=ra(),ba=ka();function Ke(t){return document.querySelector("#app").innerHTML=`
   ${va}
   ${t}
-  ${ba}`}const Us=window.location.pathname;console.log(Us);switch(Us){case"/":Ke(Zr());break;case"/test":Ke(Jr());break}
+  ${ba}`}const Us=window.location.pathname;console.log(Us);switch(Us){case"/base/":Ke(Zr());break;case"/base/test":Ke(Jr());break}
